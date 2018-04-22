@@ -13,7 +13,7 @@ const makeNavLink = to => (
   </NavLink>
 )
 
-const links = ["about", "blog"]
+const links = ["about", "blog", "resume"]
 const navLinks = links.map(link => makeNavLink(link))
 
 const Nav = () => (
